@@ -1,0 +1,24 @@
+<?php
+
+    function tarifaTrucada($minut){
+
+        $tarifaBase = 10;
+        $minutExtra = 5;
+
+
+        if($minut <= 3){
+            $preuTarifa = $tarifaBase;
+
+        } else {
+            $minutAdicional = $minut - 3;
+            if($minutAdicional > 0){
+                $preuTarifa = $tarifaBase + ($minutAdicional * $minutExtra);
+            }
+        }
+
+        return $preuTarifa;
+
+    }
+  
+
+?>

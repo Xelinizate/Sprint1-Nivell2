@@ -1,0 +1,18 @@
+<?php
+
+    function xocolate($unitatsXocolate){
+        $preuXocolate = 1;
+        return $preuXocolate * $unitatsXocolate;
+    }
+
+    function xiclets($unitatsXicles){
+        $preuXiclets = 0.50;
+        return $preuXiclets * $unitatsXicles;
+    }
+
+    function caramels($unitatsCaramels){
+        $preuCaramels = 1.50;
+        return $preuCaramels * $unitatsCaramels;
+    }
+
+?>
